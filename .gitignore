@@ -1,0 +1,23 @@
+# ESP-IDF build output
+**/build/
+
+# Generated configuration
+**/sdkconfig
+**/sdkconfig.old
+
+# Generated components
+**/managed_components/
+
+# Compiled binaries
+*.elf
+*.map
+*.bin
+*.hex
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Editor files
+.vscode/
+.idea/
