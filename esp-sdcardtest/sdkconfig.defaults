@@ -1,0 +1,5 @@
+# The HP/ESP32 development board's flash was detected as 4 MiB, while an
+# earlier project image header declared only 2 MiB. Use the full 4 MiB.
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_ESPTOOLPY_FLASHSIZE="4MB"
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=7168
