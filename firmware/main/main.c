@@ -6,10 +6,12 @@
 #include "sdkconfig.h"
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+
+/* ESP */
 #include "esp_chip_info.h"
 #include "esp_flash.h"
 #include "esp_system.h"
-
+#include "esp_heap_caps.h"
 /*  Components and stuff */
 
 #include "init/SDcard-init.h"
@@ -43,6 +45,16 @@ void app_main(void)
            (chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 
     printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
+    
+    printf("Free heap: %lu bytes\n",
+       (unsigned long)esp_get_free_heap_size());
 
+    printf("Largest free block: %lu bytes\n",
+       (unsigned long)heap_caps_get_largest_free_block(
+           MALLOC_CAP_8BIT
+       ));
+
+    
     SDcardInit();
+
 }
