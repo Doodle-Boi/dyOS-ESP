@@ -11,14 +11,10 @@
             "id": "3ac58a11353848ec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "README.md"
+              "title": "New tab"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +155,6 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -190,6 +183,9 @@
   },
   "active": "3ac58a11353848ec",
   "lastOpenFiles": [
+    "README.md.md",
+    "README.md",
+    "4913",
     "firmware/build/log/idf_py_stdout_output_16462",
     "firmware/build/log/idf_py_stderr_output_16462",
     "firmware/build/log/idf_py_stdout_output_16446",
@@ -198,8 +194,6 @@
     "firmware/build/log/idf_py_stderr_output_16435",
     "firmware/build/log/idf_py_stdout_output_16225",
     "firmware/build/log/idf_py_stderr_output_16225",
-    "firmware/build/esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d",
-    "firmware/main/main.c~",
-    "firmware/build/log/idf_py_stdout_output_15139"
+    "firmware/build/esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj.d"
   ]
 }
